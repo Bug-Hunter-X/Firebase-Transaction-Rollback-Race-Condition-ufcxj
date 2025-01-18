@@ -1,0 +1,1 @@
+The following code snippet demonstrates an uncommon error in Firebase where a transaction is unexpectedly rolled back despite meeting the expected conditions.  This can occur when there's a race condition between multiple clients updating the same document, leading to unexpected behavior.
